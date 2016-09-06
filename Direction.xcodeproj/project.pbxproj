@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9AA083BC1C8901A700012ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA083BB1C8901A700012ECB /* AppDelegate.swift */; };
-		9AA083BE1C8901A700012ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA083BD1C8901A700012ECB /* ViewController.swift */; };
+		9AA083BE1C8901A700012ECB /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA083BD1C8901A700012ECB /* CompassViewController.swift */; };
 		9AA083C11C8901A700012ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA083BF1C8901A700012ECB /* Main.storyboard */; };
 		9AA083C31C8901A700012ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA083C21C8901A700012ECB /* Assets.xcassets */; };
 		9AA083C61C8901A700012ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA083C41C8901A700012ECB /* LaunchScreen.storyboard */; };
 		9AA083D11C8901A700012ECB /* DirectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA083D01C8901A700012ECB /* DirectionTests.swift */; };
 		9AA083DC1C8901A700012ECB /* DirectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA083DB1C8901A700012ECB /* DirectionUITests.swift */; };
+		9AA083EA1C8904A700012ECB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA083E91C8904A700012ECB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		9AA083B81C8901A700012ECB /* Direction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Direction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA083BB1C8901A700012ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AA083BD1C8901A700012ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AA083BD1C8901A700012ECB /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
 		9AA083C01C8901A700012ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AA083C21C8901A700012ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AA083C51C8901A700012ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		9AA083D71C8901A700012ECB /* DirectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA083DB1C8901A700012ECB /* DirectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionUITests.swift; sourceTree = "<group>"; };
 		9AA083DD1C8901A700012ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA083E91C8904A700012ECB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA083EA1C8904A700012ECB /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		9AA083AF1C8901A700012ECB = {
 			isa = PBXGroup;
 			children = (
+				9AA083E91C8904A700012ECB /* CoreLocation.framework */,
 				9AA083BA1C8901A700012ECB /* Direction */,
 				9AA083CF1C8901A700012ECB /* DirectionTests */,
 				9AA083DA1C8901A700012ECB /* DirectionUITests */,
@@ -98,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				9AA083BB1C8901A700012ECB /* AppDelegate.swift */,
-				9AA083BD1C8901A700012ECB /* ViewController.swift */,
+				9AA083BD1C8901A700012ECB /* CompassViewController.swift */,
 				9AA083BF1C8901A700012ECB /* Main.storyboard */,
 				9AA083C21C8901A700012ECB /* Assets.xcassets */,
 				9AA083C41C8901A700012ECB /* LaunchScreen.storyboard */,
@@ -259,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA083BE1C8901A700012ECB /* ViewController.swift in Sources */,
+				9AA083BE1C8901A700012ECB /* CompassViewController.swift in Sources */,
 				9AA083BC1C8901A700012ECB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Direction" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,52 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="PdA-N1-Ybj">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ct9-SR-pF3">
+                                <rect key="frame" x="224" y="262" width="152" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="152" id="e2g-Zl-0G1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="50"/>
+                                <color key="textColor" red="0.95543602748691103" green="0.95543602748691103" blue="0.95543602748691103" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white" translatesAutoresizingMaskIntoConstraints="NO" id="h0H-nh-qkb">
+                                <rect key="frame" x="180" y="180" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="pnO-Mp-aP0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PdA-N1-Ybj" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="0pl-da-O8q"/>
+                            <constraint firstItem="Ct9-SR-pF3" firstAttribute="centerX" secondItem="h0H-nh-qkb" secondAttribute="centerX" id="4JA-NR-AzJ"/>
+                            <constraint firstItem="PdA-N1-Ybj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="60I-pV-2tt"/>
+                            <constraint firstItem="h0H-nh-qkb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KR8-fh-iUF"/>
+                            <constraint firstItem="Ct9-SR-pF3" firstAttribute="centerY" secondItem="h0H-nh-qkb" secondAttribute="centerY" id="LNk-j3-WH4"/>
+                            <constraint firstItem="h0H-nh-qkb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QYW-9V-BUl"/>
+                            <constraint firstItem="PdA-N1-Ybj" firstAttribute="centerY" secondItem="h0H-nh-qkb" secondAttribute="centerY" id="Quk-xB-NGh"/>
+                            <constraint firstItem="h0H-nh-qkb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="160" id="Ymf-NX-c27"/>
+                            <constraint firstItem="Ct9-SR-pF3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="242" id="azX-3r-HJQ"/>
+                            <constraint firstItem="PdA-N1-Ybj" firstAttribute="centerX" secondItem="Ct9-SR-pF3" secondAttribute="centerX" id="rW7-fA-hgT"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="compass" destination="h0H-nh-qkb" id="Ohd-K8-67A"/>
+                        <outlet property="num" destination="Ct9-SR-pF3" id="pIw-xR-H4Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="357"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="3000" height="3000"/>
+        <image name="white" width="3313" height="3344"/>
+    </resources>
 </document>
