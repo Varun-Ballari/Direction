@@ -7,6 +7,8 @@
 //
 
 import UIKit
+#import <CoreLocation/CoreLocation.h>
+
 
 class ViewController: UIViewController {
 
