@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginScreen1" customModule="Audio" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ggb" translatesAutoresizingMaskIntoConstraints="NO" id="1Ma-2V-H0G">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wave Logo" translatesAutoresizingMaskIntoConstraints="NO" id="3Kd-QP-2Ma">
+                    <rect key="frame" x="200" y="200" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="3Kd-QP-2Ma" secondAttribute="height" multiplier="1:1" id="FuG-wt-Zfa"/>
+                        <constraint firstAttribute="width" constant="200" id="JMU-sf-F6O"/>
+                        <constraint firstAttribute="height" constant="200" id="VMQ-YA-McZ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WAVE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7aT-k4-udW">
+                    <rect key="frame" x="226" y="417" width="149" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="149" id="5Pk-LJ-Znn"/>
+                        <constraint firstAttribute="height" constant="35" id="urh-Vc-GXS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.21176470589999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="1Ma-2V-H0G" secondAttribute="bottom" id="2eS-Ha-vNM"/>
+                <constraint firstItem="3Kd-QP-2Ma" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ANU-Kq-YIP"/>
+                <constraint firstItem="1Ma-2V-H0G" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="GWh-6R-WK6"/>
+                <constraint firstItem="3Kd-QP-2Ma" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="200" id="Lbk-Y9-T5Q"/>
+                <constraint firstAttribute="trailing" secondItem="1Ma-2V-H0G" secondAttribute="trailing" id="R8r-s4-sux"/>
+                <constraint firstItem="7aT-k4-udW" firstAttribute="centerX" secondItem="3Kd-QP-2Ma" secondAttribute="centerX" id="YFx-we-1rf"/>
+                <constraint firstItem="7aT-k4-udW" firstAttribute="top" secondItem="3Kd-QP-2Ma" secondAttribute="bottom" constant="17" id="YJi-ml-3iR"/>
+                <constraint firstItem="1Ma-2V-H0G" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fDX-bB-Mgn"/>
+                <constraint firstItem="1Ma-2V-H0G" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qwJ-eJ-Ddq"/>
+                <constraint firstItem="3Kd-QP-2Ma" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="v5R-3V-Xj3"/>
+                <constraint firstItem="1Ma-2V-H0G" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yCM-vo-LBK"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Lbk-Y9-T5Q"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="Wave Logo" width="1398" height="1218"/>
+        <image name="ggb" width="1063" height="1595"/>
+    </resources>
+</document>

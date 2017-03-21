@@ -16,7 +16,7 @@
             startingLineNumber = "36"
             endingLineNumber = "36"
             landmarkName = "locationManager(_:didUpdateHeading:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "38"
             endingLineNumber = "38"
             landmarkName = "locationManager(_:didUpdateHeading:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

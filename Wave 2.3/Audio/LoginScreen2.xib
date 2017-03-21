@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginScreen2" customModule="Audio" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4pm-u4-Ahq">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="0.97647058819999999" green="0.21176470589999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Varun Ballari" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2u-fC-Xhd">
+                    <rect key="frame" x="211.5" y="354" width="178.5" height="39"/>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.26086758269999999" green="0.26086758269999999" blue="0.26086758269999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="f2u-fC-Xhd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="12U-zd-csV"/>
+                <constraint firstAttribute="bottom" secondItem="f2u-fC-Xhd" secondAttribute="bottom" constant="142" id="FDs-kV-VmF"/>
+                <constraint firstItem="f2u-fC-Xhd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="336" id="Ff2-5m-kqf"/>
+                <constraint firstAttribute="bottom" secondItem="4pm-u4-Ahq" secondAttribute="bottom" id="H4B-JV-Twq"/>
+                <constraint firstAttribute="bottom" secondItem="f2u-fC-Xhd" secondAttribute="bottom" constant="207" id="HAV-d8-h0Q"/>
+                <constraint firstItem="f2u-fC-Xhd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HJx-nv-mJl"/>
+                <constraint firstItem="f2u-fC-Xhd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="178" id="L8V-8r-i8V"/>
+                <constraint firstItem="4pm-u4-Ahq" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="bdR-zh-4YN"/>
+                <constraint firstAttribute="bottom" secondItem="f2u-fC-Xhd" secondAttribute="bottom" constant="142" id="hUP-xB-0SS"/>
+                <constraint firstAttribute="trailing" secondItem="4pm-u4-Ahq" secondAttribute="trailing" id="tFu-3b-E7Z"/>
+                <constraint firstItem="4pm-u4-Ahq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ufT-Bm-BBy"/>
+                <constraint firstItem="4pm-u4-Ahq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="w4I-p5-naf"/>
+                <constraint firstItem="4pm-u4-Ahq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wVd-KW-eAS"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="12U-zd-csV"/>
+                    <exclude reference="FDs-kV-VmF"/>
+                    <exclude reference="Ff2-5m-kqf"/>
+                    <exclude reference="L8V-8r-i8V"/>
+                    <exclude reference="hUP-xB-0SS"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

@@ -26,13 +26,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
     }
     
-    func locationManager(manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
+    func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
         //print(newHeading.magneticHeading)
         
-        var degrees:Double = newHeading.magneticHeading as! Double
-        var turnVal:Double = degrees * M_PI/180.0
+        let degrees:Double = newHeading.magneticHeading 
+        let turnVal:Double = degrees * M_PI/180.0
         
-        compass.transform = CGAffineTransformMakeRotation(CGFloat(-turnVal))
+        compass.transform = CGAffineTransform(rotationAngle: CGFloat(-turnVal))
         num.text = String(Int(degrees)) + "°";
         
         if ((355 <= degrees &&  degrees <= 360) || (0 <= degrees && degrees <= 5)){

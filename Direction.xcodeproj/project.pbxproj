@@ -198,15 +198,18 @@
 					9AA083B71C8901A700012ECB = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = LWRX96C84L;
+						LastSwiftMigration = 0800;
 					};
 					9AA083CB1C8901A700012ECB = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = LWRX96C84L;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9AA083B71C8901A700012ECB;
 					};
 					9AA083D61C8901A700012ECB = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = LWRX96C84L;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9AA083B71C8901A700012ECB;
 					};
 				};
@@ -410,6 +413,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Varun-Ballari.Direction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -421,6 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Varun-Ballari.Direction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -432,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Varun-Ballari.DirectionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Direction.app/Direction";
 			};
 			name = Debug;
@@ -444,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Varun-Ballari.DirectionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Direction.app/Direction";
 			};
 			name = Release;
@@ -455,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Varun-Ballari.DirectionUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Direction;
 				USES_XCTRUNNER = YES;
 			};
@@ -467,6 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Varun-Ballari.DirectionUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Direction;
 				USES_XCTRUNNER = YES;
 			};
@@ -491,6 +500,7 @@
 				9AA083E21C8901A700012ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AA083E31C8901A700012ECB /* Build configuration list for PBXNativeTarget "DirectionTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				9AA083E51C8901A700012ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AA083E61C8901A700012ECB /* Build configuration list for PBXNativeTarget "DirectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +518,7 @@
 				9AA083E81C8901A700012ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
