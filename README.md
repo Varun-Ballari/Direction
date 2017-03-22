@@ -1,8 +1,7 @@
-# DIRECTION
-### COMPASS APP
-iOS App created by VARUN BALLARI.
+# Direction iOS Compass App
+### My First iOS App
 
-![image](github/pic1.png)
+This is a simple iOS app that tells direction.
 
 ### What is DIRECTION?
 - Direction is a compass app.
